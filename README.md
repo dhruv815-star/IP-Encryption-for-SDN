@@ -32,21 +32,19 @@ After cloning the repository, follow these steps to execute the code:
 
 1. **Initialize the Data File**: Make sure you have a `data.csv` file in the root directory of the project. This file should contain the plaintext IP addresses you want to encrypt. You can use the provided mock file if necessary.
 
-2. **Open Command Prompt**: You can do this by searching for "cmd" in the Start menu.
-
-3. **Navigate to the Project Directory**:
+2. **Navigate to the Project Directory**:
    Use the `cd` command to change to the directory where you cloned the repository. For example:
    ```bash
     cd path\to\IP-Encryption-for-SDN
 
-4. **Run the script**: Execute the following command to run the *switch.py* script:
+3. **Run the script**: Execute the following command to run the `switch.py` script:
     ```bash
         python switch.py
 
 ### For Linux users
 Before executing the main code, kindly make the below changes for maintaining the executability of the code in the Linux environment
 
-1. Replace, the following from switch.py:
+1. Replace, the following from `switch.py`:
     ```python
         class switch:
         def __init__(self,mode):
@@ -57,8 +55,6 @@ Before executing the main code, kindly make the below changes for maintaining th
                 proc2 = subprocess.run(['python', 'encrypt.py', 'data2.csv', 'data3.csv', '1', '2', mode], shell=True)
             else:
                 print("Enter a valid mode")
-
-
 2. Append the given code instead:
     ```python
         class switch:
@@ -70,13 +66,10 @@ Before executing the main code, kindly make the below changes for maintaining th
                 proc2 = subprocess.run(['python3', 'encrypt.py', 'data2.csv', 'data3.csv', '1', '2', mode])
             else:
                 print("Enter a valid mode")
-
-
 3. Finally, after cloning the repository, execute the code as:
     ```bash
         cd path\to\IP-Encryption-for-SDN
         python3 switch.py
-
 ## Credits
 This project was inspired from the work presented by:
 
