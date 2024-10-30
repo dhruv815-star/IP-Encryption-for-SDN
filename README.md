@@ -38,17 +38,16 @@ After cloning the repository, follow these steps to execute the code:
    Use the `cd` command to change to the directory where you cloned the repository. For example:
    ```bash
     cd path\to\IP-Encryption-for-SDN
-    
+
 4. **Run the script**: Execute the following command to run the *switch.py* script:
     ```bash
         python switch.py
 
-
 ### For Linux users
 Before executing the main code, kindly make the below changes for maintaining the executability of the code in the Linux environment
 
-Replace, the following from switch.py:
-    ```switch.py
+1. Replace, the following from switch.py:
+    ```python
         class switch:
         def __init__(self,mode):
             self.mode = mode
@@ -60,8 +59,8 @@ Replace, the following from switch.py:
                 print("Enter a valid mode")
 
 
-Append the given code instead:
-    ```switch.py
+2. Append the given code instead:
+    ```python
         class switch:
         def __init__(self,mode):
             self.mode = mode
@@ -73,8 +72,9 @@ Append the given code instead:
                 print("Enter a valid mode")
 
 
-Finally, after cloning the repository, execute the code as:
+3. Finally, after cloning the repository, execute the code as:
     ```bash
+        cd path\to\IP-Encryption-for-SDN
         python3 switch.py
 
 ## Credits
