@@ -26,11 +26,22 @@ In order to gain an in-depth understanding of the problem statement and how the 
    git clone https://github.com/dhruv815-star/IP-Encryption-for-SDN.git
    ```
 
-### For Windows users
-After cloning the repository, execute the following to obtain the output. Make sure that you initialize the 'data.csv' file before executing the file. Alternatively, you may use the mock file which is provided above. Execute the following:
+### For Windows Users
+
+After cloning the repository, follow these steps to execute the code:
+
+1. **Initialize the Data File**: Make sure you have a `data.csv` file in the root directory of the project. This file should contain the plaintext IP addresses you want to encrypt. You can use the provided mock file if necessary.
+
+2. **Open Command Prompt**: You can do this by searching for "cmd" in the Start menu.
+
+3. **Navigate to the Project Directory**:
+   Use the `cd` command to change to the directory where you cloned the repository. For example:
+   ```bash
+    cd path\to\IP-Encryption-for-SDN
+    
+4. **Run the script**: Execute the following command to run the *switch.py* script:
     ```bash
-    cd IP-Encryption-for-SDN
-    python switch.py
+        python switch.py
 
 
 ### For Linux users
