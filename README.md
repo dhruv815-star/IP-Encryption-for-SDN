@@ -31,7 +31,7 @@ After cloning the repository, execute the following to obtain the output. Make s
     ```bash
     cd IP-Encryption-for-SDN
     python switch.py
-    ```
+
 
 ### For Linux users
 Before executing the main code, kindly make the below changes for maintaining the executability of the code in the Linux environment
@@ -47,7 +47,7 @@ Replace, the following from switch.py:
                 proc2 = subprocess.run(['python', 'encrypt.py', 'data2.csv', 'data3.csv', '1', '2', mode], shell=True)
             else:
                 print("Enter a valid mode")
-    ```
+
 
 Append the given code instead:
     ```switch.py
@@ -60,12 +60,11 @@ Append the given code instead:
                 proc2 = subprocess.run(['python3', 'encrypt.py', 'data2.csv', 'data3.csv', '1', '2', mode])
             else:
                 print("Enter a valid mode")
-    ```
+
 
 Finally, after cloning the repository, execute the code as:
     ```bash
         python3 switch.py
-    ```
 
 ## Credits
 This project was inspired from the work presented by:
