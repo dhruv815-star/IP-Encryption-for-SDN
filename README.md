@@ -70,6 +70,10 @@ Before executing the main code, kindly make the below changes for maintaining th
     ```bash
         cd path\to\IP-Encryption-for-SDN
         python3 switch.py
+4. If you encounter errors while executing the files in the Linux environment, then do consider modifying the file permissions as:
+   ```bash
+      chmod +x encrypt.py
+      chmod +x your_main_script.py
 ## Credits
 This project was inspired from the work presented by:
 
